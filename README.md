@@ -8,4 +8,4 @@
 
 This repository contains the computational supplemental materials for the following scientific paper:
 
-Reference: D. Batic & D. Dutykh. *Quasinormal Modes of Morris-Thorne Wormholes*. Submitted, 2024
+**Reference**: D. Batic & D. Dutykh. *Quasinormal Modes of Morris-Thorne Wormholes*. Submitted, 2024
