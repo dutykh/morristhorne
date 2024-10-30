@@ -8,6 +8,6 @@
 
 This repository contains the computational supplemental materials for the following scientific paper:
 
-**Reference**: D. Batic & D. Dutykh. *Quasinormal Modes of Morris-Thorne Wormholes*. Submitted, 2024
+**Reference**: D. Batic & D. Dutykh. *A unified spectral approach for quasinormal modes of Morris–Thorne wormholes*. Class. Quantum Grav., **41**, 215003, 2024
 
 **NB**: Please acknowledge this work if you use these codes.
