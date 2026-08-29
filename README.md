@@ -36,7 +36,9 @@ Morris–Thorne wormholes (also known as Bronnikov–Ellis wormholes) support da
 
 The QNM frequencies enter the radial equation quadratically, so imposing the outgoing boundary conditions and discretising the equation produces a *quadratic* (polynomial) eigenvalue problem rather than a standard one:
 
-$$\bigl( M_0 + \mathrm{i}\,\Omega\, M_1 + \Omega^2 M_2 \bigr)\, \mathbf{a} \;=\; \mathbf{0},$$
+```math
+\left( M_0 + \mathrm{i} \Omega M_1 + \Omega^2 M_2 \right) \mathbf{a} = \mathbf{0}
+```
 
 where $\mathbf{a}$ collects the Chebyshev coefficients of the unknown eigenfunction. Three equivalent formulations of the boundary-value problem are implemented:
 
@@ -72,13 +74,15 @@ All three share the same structure and the same user-adjustable parameters, set 
 * `n` : number of Chebyshev modes, hence the size $n \times n$ of the matrices (default `200`);
 * `Digits` : working precision of the symbolic-numeric assembling (default `200`).
 
-The collocation nodes are the Chebyshev roots $x_i = \cos\bigl((2 i - 1) \pi / (2 n)\bigr)$; the commented alternative in the source switches to the Chebyshev extrema of $[-1, 1]$. Each worksheet ends with three `ExportMatrix` calls writing `M0_200.mat`, `M1_200.mat`, `M2_200.mat` in ASCII Matlab format into a `data/` directory. That directory is not tracked here, since the matrices are bulky and are reproduced in a few minutes: create it (or edit the export paths) before running a worksheet.
+The collocation nodes are the Chebyshev roots $x_i = \cos\left( (2i - 1) \pi / (2n) \right)$; the commented alternative in the source switches to the Chebyshev extrema of $[-1, 1]$. Each worksheet ends with three `ExportMatrix` calls writing `M0_200.mat`, `M1_200.mat`, `M2_200.mat` in ASCII Matlab format into a `data/` directory. That directory is not tracked here, since the matrices are bulky and are reproduced in a few minutes: create it (or edit the export paths) before running a worksheet.
 
 ### WKB approximation (Maple)
 
 `QNM-WKB3.mw` implements the third-order WKB formula. It locates the peak $x_0$ of the potential $V(x) = \lambda / (1 + x^2) + \varepsilon / (1 + x^2)^2$, evaluates the derivatives of $V$ up to sixth order at that point, forms the second- and third-order corrections $\Lambda_2$, $\Lambda_3$, and returns the frequency
 
-$$\Omega \;=\; \sqrt{V_0 - \mathrm{i} \sqrt{-2 V_0''}\,\bigl( a + \Lambda_2 + \Lambda_3 \bigr)}, \qquad a = n + \tfrac{1}{2},$$
+```math
+\Omega = \sqrt{V_0 - \mathrm{i} \sqrt{-2 V_0''} \left( a + \Lambda_2 + \Lambda_3 \right)}, \qquad a = n + \frac{1}{2}
+```
 
 with `L`, `s` and the overtone number `n` set at the top of the worksheet.
 
