@@ -6,6 +6,16 @@
 
 # Computation of quasinormal modes for Morris-Thorne wormholes
 
+[![Class. Quantum Grav.](https://img.shields.io/badge/Class.%20Quantum%20Grav.-41%20%282024%29%20215003-005a9c)](https://iopscience.iop.org/article/10.1088/1361-6382/ad7cb8)
+[![DOI](https://img.shields.io/badge/DOI-10.1088%2F1361--6382%2Fad7cb8-1a7f37)](https://doi.org/10.1088/1361-6382/ad7cb8)
+[![arXiv](https://img.shields.io/badge/arXiv-2410.05979-b31b1b)](https://arxiv.org/abs/2410.05979)
+[![License: LGPL v2.1](https://img.shields.io/badge/License-LGPL%20v2.1-4c1)](LICENSE)
+[![Maple](https://img.shields.io/badge/Maple-2022%2B-ff6f00)](https://www.maplesoft.com/products/Maple/)
+[![MATLAB](https://img.shields.io/badge/MATLAB-Advanpix%20MCT-0076a8)](https://www.advanpix.com/)
+[![QNMs Hall of Fame](https://img.shields.io/badge/QNMs-Hall%20of%20Fame-8a2be2)](https://qnms.denys-dutykh.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-dutykh%2Fmorristhorne-181717?logo=github)](https://github.com/dutykh/morristhorne)
+[![Last commit](https://img.shields.io/github/last-commit/dutykh/morristhorne)](https://github.com/dutykh/morristhorne/commits/main)
+
 **Authors**: Dr. Davide Batic (KU) and Dr. Denys Dutykh (KU)
 
 **Numerical methods**: Collocation-type spectral method based on Chebyshev polynomials coupled with a polynomial eigenvalue solver
