@@ -1,0 +1,52 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+cff-version: 1.2.0
+message: "If you use this code, please cite the article given under preferred-citation."
+title: "morristhorne: quasinormal modes of Morris–Thorne wormholes by a Chebyshev spectral method"
+type: software
+authors:
+  - family-names: Batic
+    given-names: Davide
+    affiliation: "Khalifa University of Science and Technology"
+    orcid: "https://orcid.org/0000-0002-7619-4900"
+  - family-names: Dutykh
+    given-names: Denys
+    affiliation: "Khalifa University of Science and Technology"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
+repository-code: "https://github.com/dutykh/morristhorne"
+license: LGPL-2.1-only
+version: 1.1.0
+date-released: "2026-11-14"
+keywords:
+  - general-relativity
+  - wormholes
+  - quasinormal-modes
+  - spectral-methods
+  - chebyshev-polynomials
+  - wkb-approximation
+  - maple
+  - matlab
+abstract: >-
+  Maple worksheets and MATLAB scripts for the quasinormal modes of scalar, electromagnetic and vector-type
+  gravitational perturbations of the Morris–Thorne wormhole. A Chebyshev collocation at 200 digits, across the whole
+  wormhole or from the throat with the conditions that select the even or the odd overtones, gives a quadratic
+  eigenvalue problem solved with polyeig in double or multiple precision; a third-order WKB worksheet gives estimates
+  for comparison.
+preferred-citation:
+  type: article
+  title: A Unified Spectral Approach for Quasinormal Modes of Morris-Thorne Wormholes
+  authors:
+  - family-names: Batic
+    given-names: Davide
+  - family-names: Dutykh
+    given-names: Denys
+  journal: Classical and Quantum Gravity
+  volume: 41
+  issue: '21'
+  start: 215003
+  year: 2024
+  month: 11
+  doi: 10.1088/1361-6382/ad7cb8
+  identifiers:
+  - type: url
+    value: https://arxiv.org/abs/2410.05979
+    description: arXiv preprint
